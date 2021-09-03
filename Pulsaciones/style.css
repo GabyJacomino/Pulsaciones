@@ -1,0 +1,53 @@
+.nav{
+background-color: cornsilk;
+height: 40px;
+overflow: hidden;
+font-family: cursive;
+}
+.nav a {
+    float: left;
+    color: #1c1586;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: rgb(141, 51, 118);
+    color: rgba(14, 216, 138, 0.795);
+}
+
+.nav a.active {
+    background-color: #8851b4;
+    color: rgb(8, 3, 3);
+}
+.texto{
+    float: left;
+}
+article{
+    display: flex;
+    text-align: justify;
+    clear: both;
+    background-color: burlywood;
+    margin-top: 3%;
+    font-family: cursive;
+
+}
+
+img{
+    width: 30%;
+    float: right;
+    box-shadow:-1px  -1px  black;
+    margin:4px;
+}
+footer{
+    background-color: rgb(179, 88, 88);
+    margin-top: 5px;
+    height: 40px;
+    text-align: center;
+   font: size 25px;
+   font-family: cursive;
+
+    
+}
